@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
       </div>
 
       <div className="rounded-full overflow-hidden w-48 h-49 justify-content:center flex  align-items:center">
-        <img src="deshantkumar.png"></img>
+        <Image src="/deshantkumar.png" alt="deshant kumar"></Image>
       </div>
 
       <div>
@@ -25,22 +26,22 @@ export default function Home() {
 
       <br />
       <div>
-        <h1>Connect with Me</h1>
+        <h1>Connect with Me</h1> 
       </div>
 
       <nav className="bg-black text-white p-3">
         <div className="container mx-auto flex justify-between items-center">
           
           <a href="https://github.com/deshantk332720/deshant" target="_blank" className="w-10 h-10">
-            <img className="w-10 h-10" src="/github.png" alt="GitHub" />
+            <Image className="w-10 h-10" src="/github.png" alt="GitHub" />
           </a>
           
           <a href="https://www.linkedin.com/feed/" target="_blank" className="w-10 h-10">
-            <img className="w-10 h-10" src="/linkedin.png" alt="LinkedIn" />
+            <Image className="w-10 h-10" src="/linkedin.png" alt="LinkedIn" />
           </a>
           
           <a href="https://www.npmjs.com/~deshant_kumarrathi3327" target="_blank" className="w-10 h-10">
-            <img className="w-10 h-10" src="/npm.png" alt="NPM" />
+            <Image className="w-10 h-10" src="/npm.png" alt="NPM" />
           </a>
         </div>
       </nav>
