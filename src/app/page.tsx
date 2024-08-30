@@ -5,7 +5,7 @@ export default function Home() {
   return (
   <div>
       
-      <div className=" hidden md:block">
+  <div className=" hidden md:block">
         <nav className="p-4">
           <ul className="flex justify-end item-center gap-40">
             <li><Link href="#About Me">About </Link></li>
@@ -16,7 +16,7 @@ export default function Home() {
       </div>
 
       <div className="rounded-full overflow-hidden w-48 h-49 justify-content:center flex  align-items:center">
-        <Image src="/deshantkumar.png" alt="deshant kumar"></Image>
+        <Image src="/deshantkumar.png" alt="deshant kumar" width='250' height='500'></Image>
       </div>
 
       <div>
@@ -33,15 +33,15 @@ export default function Home() {
         <div className="container mx-auto flex justify-between items-center">
           
           <a href="https://github.com/deshantk332720/deshant" target="_blank" className="w-10 h-10">
-            <Image className="w-10 h-10" src="/github.png" alt="GitHub" />
+            <Image  src="/github.png" alt="GitHub" width='40' height='40' />
           </a>
           
           <a href="https://www.linkedin.com/feed/" target="_blank" className="w-10 h-10">
-            <Image className="w-10 h-10" src="/linkedin.png" alt="LinkedIn" />
+            <Image  src="/linkedin.png" alt="LinkedIn"width='40' height='40' />
           </a>
           
           <a href="https://www.npmjs.com/~deshant_kumarrathi3327" target="_blank" className="w-10 h-10">
-            <Image className="w-10 h-10" src="/npm.png" alt="NPM" />
+            <Image  src="/npm.png" alt="NPM"width='40' height='40' />
           </a>
         </div>
       </nav>
